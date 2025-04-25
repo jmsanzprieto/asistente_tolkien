@@ -60,7 +60,7 @@ Este proyecto es un script de Python que implementa un asistente conversacional 
 2.  Abre una terminal en el directorio raíz del proyecto.
 3.  Ejecuta el script Python:
     ```bash
-    python asistente_tolkien.py
+    python asistente_conversacion.py
     ```
 
 ## Cómo Usar
