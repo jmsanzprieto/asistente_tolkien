@@ -33,7 +33,7 @@ Este proyecto es un script de Python que implementa un asistente conversacional 
 
 3.  **Instala las Dependencias:**
     ```bash
-    pip install google-generativeai python-dotenv
+    pip install -r requirements.txt
     ```
 
 4.  **Crea el Archivo `.env`:**
