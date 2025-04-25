@@ -74,7 +74,7 @@ def send_email(to_email, subject, body):
     try:
         msg = MIMEText(body, 'plain', 'utf-8')
         msg['Subject'] = Header(subject, 'utf-8')
-        msg['From'] = formataddr(("Gema, tu Asistente Tolkien", sender_email)) # Nombre opcional y correo
+        msg['From'] = formataddr(("Elendur, tu Asistente Tolkien", sender_email)) # Nombre opcional y correo
         msg['To'] = to_email
 
         with smtplib.SMTP(smtp_server, smtp_port) as server:
