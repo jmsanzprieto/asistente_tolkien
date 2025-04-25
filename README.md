@@ -1,4 +1,4 @@
-# Elendur: Asistente de Tolkien con IA y Funcionalidad de Envío por Correo
+# Elendur: Agente de IA especializado en Tolkien y Funcionalidad de Envío por Correo
 
 Este proyecto es un script de Python que implementa un asistente conversacional llamado "Elendur", especializado en la obra de J.R.R. Tolkien (El Señor de los Anillos, El Hobbit, etc.). Utiliza la API de Google Gemini para responder preguntas sobre este fascinante universo y ofrece la funcionalidad de enviar por correo electrónico la última respuesta proporcionada por la IA, si el usuario así lo solicita.
 
