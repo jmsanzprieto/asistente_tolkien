@@ -1,0 +1,158 @@
+/* Estilos personalizados para la aplicación */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5;
+    /* Un gris claro para el fondo */
+}
+
+.container {
+    max-width: 900px;
+    /* Ancho máximo del contenedor */
+    margin-top: 50px;
+    /* Margen superior */
+    margin-bottom: 50px;
+    /* Margen inferior */
+    padding: 30px;
+    /* Relleno interno */
+    background-color: #ffffff;
+    /* Fondo blanco para el contenido */
+    border-radius: 15px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    /* Ajusta la altura mínima para ver bien el chat */
+}
+
+.card {
+    border: none;
+    /* Sin borde en las tarjetas */
+    border-radius: 10px;
+    /* Bordes redondeados para tarjetas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    /* Sombra más ligera para tarjetas */
+}
+
+.btn-primary {
+    background-color: #28a745;
+    /* Verde para el botón principal */
+    border-color: #28a745;
+    transition: background-color 0.3s ease;
+    /* Transición suave al pasar el ratón */
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    /* Verde más oscuro al pasar el ratón */
+    border-color: #1e7e34;
+}
+
+.btn-success {
+    background-color: #17a2b8;
+    /* Azul claro para el botón de enviar correo */
+    border-color: #17a2b8;
+}
+
+.btn-success:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+textarea {
+    resize: vertical;
+    /* Permitir redimensionar verticalmente el área de texto */
+}
+
+/* --- Estilos para la interfaz de chat --- */
+#chatHistory {
+    flex-grow: 1;
+    /* Permite que el historial de chat ocupe el espacio disponible */
+    overflow-y: auto;
+    /* Habilita el scroll vertical */
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e9ecef;
+    /* Fondo claro para el historial */
+    margin-bottom: 20px;
+    /* Espacio antes del área de entrada */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Espacio entre mensajes */
+}
+
+.message-bubble {
+    max-width: 75%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 0.95em;
+}
+
+.user-message {
+    align-self: flex-end;
+    /* Alinea a la derecha */
+    background-color: #dcf8c6;
+    /* Color verde claro para el usuario */
+    color: #333;
+}
+
+.ai-message {
+    align-self: flex-start;
+    /* Alinea a la izquierda */
+    background-color: #ffffff;
+    /* Color blanco para el asistente */
+    color: #333;
+    border: 1px solid #dee2e6;
+    /* Borde sutil */
+}
+
+/* Estilos específicos para la interacción de correo dentro del chat */
+.ai-email-interaction {
+    align-self: flex-start;
+    background-color: #f8f9fa;
+    /* Un fondo ligeramente diferente para destacar */
+    border: 1px solid #cce5ff;
+    /* Borde azul claro */
+    padding: 15px;
+    border-radius: 10px;
+    width: 85%;
+    /* Ocupa más ancho para los inputs */
+}
+
+.ai-email-interaction .form-label {
+    font-size: 0.85em;
+    /* Tamaño de fuente más pequeño para labels dentro del chat */
+    margin-bottom: 5px;
+}
+
+.ai-email-interaction .form-control-sm {
+    padding: 0.375rem 0.75rem;
+    /* Ajuste para inputs pequeños */
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+}
+
+.ai-email-interaction .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+}
+
+/* --- Fin estilos de chat --- */
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+    /* Sombra de enfoque personalizada */
+    border-color: #28a745;
+}
+
+.alert-info-custom {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border-color: #bee5eb;
+    border-radius: 10px;
+}
